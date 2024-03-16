@@ -1,0 +1,27 @@
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.editorWrapper{
+    margin: 24px auto 0 auto;
+    width: 90vw;
+}
+
+.editorContainer {
+    border-radius: 4px;
+    border: 1px solid #DCDCDC;
+    border-color:	#DCDCDC;
+    padding: 8px
+}
+
+.editorContainer:hover {
+    border: 1px solid #C0C0C0;
+}
+
+.richEditorCodeBlock {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-family: "Inconsolata", "Menlo", "Consolas", monospace;
+    font-size: 16px;
+    padding: 2px;
+}

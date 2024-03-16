@@ -1,0 +1,35 @@
+.headerWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+  
+.titleInput {
+    flex: 1; 
+    padding: 8px; 
+    margin-right: 24px;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+    font-weight: bold;
+    font-size: 40px;
+    transition: border-color 0.3s;
+    text-align: center;
+}
+
+.titleInput:focus,
+.titleInput:hover
+{
+    outline: none; 
+    border-color: #007bff; 
+}
+
+.saveButton {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
